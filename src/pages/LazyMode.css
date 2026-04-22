@@ -1,0 +1,67 @@
+.lazy-controls {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  padding: var(--space-5);
+  margin-bottom: var(--space-6);
+}
+
+.lazy-header {
+  padding: var(--space-6);
+  margin-bottom: var(--space-6);
+  text-align: center;
+}
+
+.lazy-header h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+}
+
+.lazy-header p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.lazy-audio {
+  margin-bottom: var(--space-6);
+}
+
+.lazy-section {
+  padding: var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+.lazy-section h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-4);
+}
+
+.lazy-script-text {
+  font-size: var(--font-size-sm);
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-4);
+}
+
+.lazy-takeaways {
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.lazy-takeaways h4 {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+  color: var(--color-accent);
+}
+
+.lazy-takeaways ul {
+  padding-left: var(--space-5);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.lazy-takeaways li {
+  margin-bottom: var(--space-1);
+}

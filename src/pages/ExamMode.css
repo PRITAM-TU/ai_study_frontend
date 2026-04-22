@@ -1,0 +1,116 @@
+.exam-controls {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  padding: var(--space-5);
+  margin-bottom: var(--space-6);
+}
+
+.exam-repeated {
+  padding: var(--space-5);
+  margin-bottom: var(--space-6);
+}
+
+.exam-repeated h3 {
+  font-size: var(--font-size-base);
+  margin-bottom: var(--space-3);
+}
+
+.exam-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.exam-tabs {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
+  overflow-x: auto;
+}
+
+.exam-tab {
+  padding: var(--space-3) var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+  font-family: var(--font-sans);
+}
+
+.exam-tab:hover { border-color: var(--color-border-hover); }
+
+.exam-tab-active {
+  background: var(--color-accent-soft) !important;
+  border-color: var(--color-accent) !important;
+  color: var(--color-accent) !important;
+}
+
+.exam-item {
+  padding: var(--space-5);
+  margin-bottom: var(--space-3);
+}
+
+.exam-item h4 {
+  margin-bottom: var(--space-2);
+}
+
+.exam-item p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.exam-item-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-2);
+}
+
+.exam-rank {
+  font-weight: 800;
+  font-size: var(--font-size-lg);
+  color: var(--color-accent);
+}
+
+.exam-q { margin-bottom: var(--space-3); font-size: var(--font-size-sm); color: var(--color-text-primary); }
+
+.exam-options { display: flex; flex-direction: column; gap: var(--space-1); margin-bottom: var(--space-3); }
+
+.exam-opt {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.exam-answer {
+  font-size: var(--font-size-xs);
+  color: var(--color-success);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-border);
+}
+
+.exam-keypoints {
+  margin-top: var(--space-2);
+  padding-left: var(--space-5);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.exam-keypoints li { margin-bottom: var(--space-1); }
+
+.exam-formula {
+  display: block;
+  padding: var(--space-3);
+  background: var(--color-bg-glass);
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  margin: var(--space-2) 0;
+}

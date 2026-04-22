@@ -1,0 +1,107 @@
+.quiz-controls {
+  padding: var(--space-6);
+  margin-bottom: var(--space-8);
+}
+
+.quiz-control-row {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.quiz-title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--space-6);
+}
+
+.quiz-questions {
+  margin-top: var(--space-6);
+}
+
+.quiz-question {
+  padding: var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+.quiz-q-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.quiz-q-number {
+  font-weight: 800;
+  font-size: var(--font-size-lg);
+  color: var(--color-accent);
+}
+
+.quiz-q-text {
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-size: var(--font-size-sm);
+}
+
+.quiz-option:hover {
+  border-color: var(--color-border-hover);
+  background: var(--color-bg-card-hover);
+}
+
+.quiz-option-selected {
+  border-color: var(--color-accent) !important;
+  background: var(--color-accent-soft) !important;
+}
+
+.quiz-option input[type="radio"] {
+  accent-color: var(--color-accent);
+}
+
+/* Results */
+.quiz-results { margin-top: var(--space-6); }
+
+.quiz-score-card {
+  text-align: center;
+  padding: var(--space-10);
+  margin-bottom: var(--space-6);
+}
+
+.quiz-score-big {
+  font-size: var(--font-size-5xl);
+  font-weight: 900;
+  margin: var(--space-4) 0;
+}
+
+.quiz-result-item {
+  padding: var(--space-5);
+  margin-bottom: var(--space-3);
+}
+
+.result-correct { border-left: 3px solid var(--color-success); }
+.result-wrong { border-left: 3px solid var(--color-error); }
+
+.quiz-explanation {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-2);
+  font-style: italic;
+}
